@@ -1,0 +1,54 @@
+$clr-main: hsl(0, 0%, 100%);
+$clr-yellow: hsl(35, 100%,62%);
+$clr-dark: hsl(0, 0%, 0%);
+
+$ff-main:  "Montserrat", sans-serif;
+$ff-script:"Nickainley",sans-serif;
+$ff-title:'Labor Union', sans-serif;
+                                                
+
+$fw-ligth:300;
+$fw-regular:400;
+$fw-semibold:600;
+$fw-bold:700;
+
+$fs-xs: 0.75rem;
+$fs-nm:1rem;
+$fs-lg: 1.5rem;
+$fs-xl: 2rem;
+
+
+$fs-nm:16
+$fs-xnm:20
+$fs-md:30
+$fs-xmd:40
+$fs-xxmd:50
+$fs-lg:60
+$fs-xlg:70
+$fs-xxlg:80
+$fs-gt:100
+$fs-xgt:120
+
+
+
+body{
+    background: $clr-main;
+    font-family: $ff-main;
+    color: $clr-yellow;
+    font-weight: $fw-ligth;
+    font-size: $fs-xl;
+    ;
+}
+
+h1{
+font-family:$ff-title ;
+color: $clr-dark;
+
+}
+
+h3{
+
+font-family: $ff-script;
+color: $clr-dark;
+
+}
