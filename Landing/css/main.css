@@ -1,0 +1,211 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: hsl(0, 0%, 100%);
+  font-family: "Montserrat", sans-serif;
+  color: hsl(35, 100%, 62%);
+  font-size: 4rem;
+  font-weight: 300;
+}
+
+h1 {
+  font-family: "Labor Union", sans-serif;
+  font-size: 6.25rem;
+  line-height: 1.5rem;
+}
+
+h3 {
+  font-family: "Nickainley", sans-serif;
+  font-size: 4rem;
+  margin-top: 0.5rem;
+}
+
+.logo {
+  display: table;
+  margin: auto;
+}
+
+.header-section {
+  background: url(../img/top-rocks.jpg) no-repeat;
+  background-size: cover;
+  padding-bottom: 6rem;
+}
+
+.hike-more-section {
+  background: url(../img/mountains.png) no-repeat top;
+  padding-top: 16rem;
+}
+
+.memorable-section {
+  background: hsl(35, 100%, 62%);
+  padding-bottom: 5rem;
+}
+
+.level-section {
+  background: url(../img/hiking.jpg) no-repeat;
+  background-size: cover;
+  padding-bottom: 40rem;
+  padding-top: 5rem;
+}
+
+.map-section {
+  background: url(../img/map.jpg) no-repeat;
+  background-size: cover;
+  padding-bottom: 6rem;
+  padding-top: 3rem;
+}
+
+.top-nav {
+  display: flex;
+  list-style-type: none;
+  align-items: start;
+  gap: 2rem;
+  margin-left: 5rem;
+}
+
+.nav-list-item {
+  display: flex;
+}
+
+.nav-list-link {
+  color: hsl(0, 0%, 100%);
+  font-size: 1rem;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.columns-container {
+  display: grid;
+  margin: 2rem auto;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+}
+
+.text-white {
+  color: hsl(0, 0%, 100%);
+}
+
+.text-dark {
+  color: hsl(218, 13%, 17%);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.quotes-container {
+  width: 75%;
+  margin: 21rem auto 0;
+  padding: 1.5rem 1rem;
+}
+
+.quotes-content {
+  font-size: 1.25rem;
+}
+
+.quotes-author {
+  font-size: 1rem;
+  font-family: "Labor Union", sans-serif;
+}
+
+.hike-description {
+  font-size: 1.25rem;
+  font-weight: 600;
+  padding: 2rem 5rem;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  color: hsl(0, 0%, 100%);
+  border-radius: 2rem;
+}
+
+.white-btn {
+  border-color: hsl(0, 0%, 100%);
+  color: hsl(0, 0%, 100%);
+  border: 0.25rem solid;
+}
+
+.dark-btn {
+  border-color: hsl(218, 13%, 17%);
+  color: hsl(218, 13%, 17%);
+  border: 0.1rem solid;
+}
+
+.bg-yellow-50 {
+  background: hsla(35, 100%, 62%, 0.64);
+}
+
+.top-splash {
+  width: 100%;
+  margin-top: -3rem;
+}
+
+.memorable-description {
+  background: url(../img/black-box-sm.png) no-repeat;
+  background-size: cover;
+  width: 50%;
+  font-size: 1.25rem;
+  margin: 0 auto;
+  padding: 4rem 10rem;
+}
+
+.level-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.main-level {
+  font-size: 3.125rem;
+  font-weight: 300;
+  border-bottom: 0.1rem solid hsl(218, 13%, 17%);
+  padding-bottom: 1rem;
+}
+
+.level-description {
+  padding-top: 1rem;
+  font-size: 1.25rem;
+  text-align: left;
+}
+
+.map {
+  width: 90%;
+  margin: auto;
+  border: 0.2rem solid hsl(35, 100%, 62%);
+  height: 30rem;
+}
+
+.map-description {
+  padding: 3rem 30rem 0;
+  font-size: 1.25rem;
+}
+
+.journey {
+  font-weight: 600;
+}
+
+.journey-description {
+  font-size: 1.25rem;
+  padding: 3rem 25rem;
+}
+
+.journey-list {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  font-size: 1.875rem;
+  font-weight: 600;
+  list-style-type: none;
+  align-items: start;
+  gap: 5rem;
+}
+
+/*# sourceMappingURL=main.css.map */
